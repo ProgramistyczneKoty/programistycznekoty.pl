@@ -1,1 +1,0 @@
-# Programistycznekoty.pl
