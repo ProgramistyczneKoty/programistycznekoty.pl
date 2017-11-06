@@ -1,0 +1,37 @@
+body {
+    /*This pattern is downloaded from www.subtlepatterns.com */
+    background-image: url(images/background-img.png);
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: seashell;
+    text-align: justify;
+}
+
+header img {
+    margin: auto;
+    display: block;
+    width: 960px;
+}
+
+.image-border {
+    border-radius: 0% 60% 60% 0%;
+    float: left;
+}
+
+.section {
+    height: 354px;
+}
+
+.section p {
+    padding: 0px 30px 0px 30px;
+}
+
+footer {
+    width: 960px;
+    margin: 10px auto;
+    background-color: seashell;
+    text-align: center;
+}

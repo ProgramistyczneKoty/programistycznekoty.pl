@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Udemy - Listy, tabele i formularze</title>
+</head>
+
+<body>
+    <h1>Rejestracja</h1>
+    <form>
+        <div>
+            Imię<label><input type="text" placeholder="Janusz" name="name" required></label> Nazwisko<label><input type="text" placeholder="Biznesu" name="sname" required></label>
+        </div>
+        <div>
+            Mężczyzna <label><input type="radio" name="gender" value="male"></label> Kobieta
+            <label><input type="radio" name="gender" value="female"></label> Kot
+            <label><input type="radio" name="gender" value="cat"></label>
+        </div>
+        <div>
+            E-mail <label><input type="email" placeholder="twój@email" required></label> Hasło
+            <label><input type="password" pattern=".{5,10}" title="Hasło musi mieć pomiędzy 5 a 10 znaków" placeholder="5-10 znaków"required></label>
+        </div>
+        <div>
+            Urodziny<select name="b-day">
+            <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+             <option>5</option>
+             <option>6</option>
+             <option>7</option>
+             <option>8</option>
+             <option>9</option>
+             <option>10</option>
+             <option>11</option>
+             <option>12</option>
+             <option>13</option>
+             <option>14</option>
+             <option>15</option>
+             <option>16</option>
+             <option>17</option>
+             <option>18</option>
+             <option>19</option>
+             <option>20</option>
+             <option>21</option>
+             <option>22</option>
+             <option>23</option>
+             <option>24</option>
+             <option>25</option>
+             <option>26</option>
+             <option>27</option>
+             <option>28</option>
+             <option>29</option>
+             <option>30</option>
+             <option>31</option>
+        </select>
+            <select name="b-day">
+            <option>Styczeń</option>
+             <option>Luty</option>
+             <option>Marzec</option>
+             <option>Kwiecień</option>
+             <option>Maj</option>
+             <option>Czerwiec</option>
+             <option>Lipiec</option>
+             <option>Sierpień</option>
+             <option>Wrzesień</option>
+             <option>Październik</option>
+             <option>Listopad</option>
+             <option>Grudzień</option>
+            </select>
+            <select name="b-day">
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  <option>2013</option>
+                  <option>2012</option>
+                  <option>2011</option>
+                  <option>2010</option>
+                  <option>2009</option>
+                  <option>2008</option>
+                  <option>2007</option>
+                  <option>2006</option>
+                  <option>2005</option>
+                  <option>2004</option>
+                  <option>2003</option>
+                  <option>2002</option>
+                  <option>2001</option>
+                  <option>2000</option>
+                  <option>1999</option> 
+                  <option>1998</option>
+                  <option>1997</option>
+                  <option>1996</option>
+                  <option>1995</option>
+                  <option>Tyle to koty nie żyją ; )</option>
+            </select>
+
+        </div>
+        Zatwierdzam warunki i regulamin cyrografu <label><input type="checkbox" required checked></label>
+        <input type="submit">
+    </form>
+    <hr>
+    <h1>Lista Pokemonów</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Obraz</th>
+                <th>Nazwa</th>
+                <th>Typ</th>
+                <th>Ewolucja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+                <td>Bulbasaur</td>
+                <td>Ziemia/Trucizna</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
+            </tr>
+            <tr>
+                <td><img src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+                <td>Charmander</td>
+                <td>Ogień</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+
+            </tr>
+            <tr>
+                <td><img src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+                <td>Squirtle</td>
+                <td>Woda</td>
+                <td><a href="http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <hr>
+    <h1>Koci Kot</h1>
+    <p>Cześć, jestem kotem!</p>
+
+    <img src="kot.jpg" width="400px">
+
+    <h3>Co lubię robić:</h3>
+
+    <ul>
+        <li>Drapać</li>
+        <li>Jeść</li>
+        <li>Spać</li>
+    </ul>
+
+    <p>Obejrzyj więcej kocich zdjęć na <a href="https://www.instagram.com/explore/tags/cat/">Instagramie</a></p>
+    <hr>
+
+    <h1>Things I've Learned</h1>
+
+    <h2>Internet Basics</h2>
+
+    <ol>
+        <li>HTTP Requests</li>
+        <li>IP Address</li>
+        <li>Servers</li>
+    </ol>
+
+    <h2>HTML</h2>
+
+    <ul>
+        <li>Stands for <strong>Hyper Text Markup Language</strong></li>
+        <li>Lots of Tags
+            <ul>
+                <li>Boilerplate
+                    <ol>
+                        <li>Doctype</li>
+                        <li>HTML</li>
+                        <li>Head
+                            <ol>
+                                <li>Title</li>
+                            </ol>
+                        </li>
+                        <li>Body</li>
+                    </ol>
+                </li>
+                <li>Headings</li>
+                <li>Paragraph</li>
+                <li><em>em</em></li>
+                <li><strong>strong</strong></li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+
+
+</body>
+
+</html>
