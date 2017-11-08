@@ -77,32 +77,20 @@ body {
     height: 1102px;
     -webkit-box-shadow: 0px -2px 5px black inset;
     box-shadow: 0px -2px 5px black inset;
-    background-size: cover;
     background-position: 50% 60%;
+    background-size: cover;
 }
 
-@media (max-width: 680px) {
-    .header__background {
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-}
+
+/*~>>>>>SECTION-START<<<<< */
 
 .section {
     text-align: justify;
     color: white;
     letter-spacing: 1.5px;
     line-height: 120%;
-    margin: 0 auto;
-    padding: 150px 50px;
-}
-
-.article {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 50px;
-    width: 80%;
+    margin: 20px auto;
+    padding: 250px 0;
 }
 
 .section--odd {
@@ -113,21 +101,35 @@ body {
     background: #f19830;
 }
 
-.section__image {
-    max-height: 500px;
+.article {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.article__image {
     float: left;
-    margin: 0 20px 0 0;
-    display: block;
+    position: relative;
+    bottom: 10px;
+    margin-right: 20px;
 }
 
 .article>h1 {
     font-size: 220%;
-    margin: 2% 0 3% 0;
+    margin: 20px 0 10px 0;
     text-align: center;
     padding-bottom: 50px;
 }
 
-.color__textero {
+.article>p:first-of-type {
+    text-align: center;
+}
+
+.article>h1>.color__text {}
+
+.color__text {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -138,21 +140,5 @@ body {
     font-family: "Satisfy";
 }
 
-.color__text {
-    color: #f19830;
-    font-size: 150%;
-    font-family: "Satisfy";
-}
 
-@media (max-width: 1200px) {
-    .nav__item--right,
-    .nav__item--left {
-        display: block;
-        width: 20%;
-        margin: 0 0 0 0;
-        float: left;
-        padding: 0 2% 0 2%;
-        font-size: 1em;
-        text-align: center;
-    }
-}
+/*~>>>>>SECTION-END<<<<< */
