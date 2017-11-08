@@ -140,5 +140,41 @@ body {
     font-family: "Satisfy";
 }
 
+.icon-fb{
+    float:left;
+    height: 5em;
+    width: 20%;
+    text-align: center;
+    margin-right: 5%;
+    background-color: #3b5998;
+    
+    
+}
+
+.icon-yt{
+    float:left;
+    height: 5em;
+    width: 20%;
+    text-align: center;
+    margin-right: 5%;
+    background-color: #cc181e;
+    
+    
+}
+
+.icon-git{
+    float:left;
+    height: 5em;
+    width: 20%;
+    text-align: center;
+    margin-right: 5%;
+    background-color: #333333;
+    
+    
+}
+
+
+
+
 
 /*~>>>>>SECTION-END<<<<< */
