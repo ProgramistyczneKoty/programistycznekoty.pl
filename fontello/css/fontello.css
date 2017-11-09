@@ -55,8 +55,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-facebook:before { content: '\f09a'; color:#ffffff; font-size: 80px; text-align: center; padding-top: 15%; } /* '' */
-.icon-github-circled:before { content: '\f09b'; color:#ffffff; font-size: 80px; text-align: center; padding-top: 15%; } /* '' */
-.icon-mail-alt:before { content: '\f0e0'; color:#ffffff; font-size: 80px; text-align: center; padding-top: 15%; } /* '' */
+.icon-facebook:before { content: '\f09a'; color:#ffffff; font-size: 150px; text-align: center; padding-top: 15%; } /* '' */
+.icon-github-circled:before { content: '\f09b'; color:#ffffff; font-size: 150px; text-align: center; padding-top: 15%; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; color:#ffffff; font-size: 150px; text-align: center; padding-top: 15%; } /* '' */
 .icon-angle-circled-up:before { content: '\f139'; color:#ffffff; font-size: 80px; text-align: center; padding-top: 15%; } /* '' */
-.icon-youtube:before { content: '\f167'; color:#ffffff; font-size: 80px; text-align: center; padding-top: 15%;} /* '' */
+.icon-youtube:before { content: '\f167'; color:#ffffff; font-size: 150px; text-align: center; padding-top: 15%;} /* '' */

@@ -140,38 +140,74 @@ body {
     font-family: "Satisfy";
 }
 
-.icon-fb{
+.icon_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.icon{
     float:left;
-    height: 5em;
-    width: 20%;
+    height: 100%;
+    max-width: 100%;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+    transition: 0.4s transform linear;
+    
+}
+    
+.icon:hover {
+  transform: scale(1.5);
+   
+ 
+    
+}
+
+
+.icon-fb{
     background-color: #3b5998;
+    padding: 1%;
+    -webkit-box-shadow: -3px 6px 50px 5px rgba(59,89,152,0.69);
+    -moz-box-shadow: -3px 6px 50px 5px rgba(59,89,152,0.69);
+    box-shadow: -3px 6px 50px 5px rgba(59,89,152,0.69);
+
     
     
 }
 
 .icon-yt{
-    float:left;
-    height: 5em;
-    width: 20%;
-    text-align: center;
-    margin-right: 5%;
     background-color: #cc181e;
+    padding: 1%;
+    -webkit-box-shadow: -3px 6px 50px 5px rgba(204,24,30,0.69);
+    -moz-box-shadow: -3px 6px 50px 5px rgba(204,24,30,0.69);
+    box-shadow: -3px 6px 50px 5px rgba(204,24,30,0.69);
+
+    
+ 
     
     
 }
 
 .icon-git{
-    float:left;
-    height: 5em;
-    width: 20%;
-    text-align: center;
-    margin-right: 5%;
     background-color: #333333;
+    padding: 1%;
+    -webkit-box-shadow: -3px 6px 50px 5px rgba(51,51,51,0.69);
+    -moz-box-shadow: -3px 6px 50px 5px rgba(51,51,51,0.69);
+    box-shadow: -3px 6px 50px 5px rgba(51,51,51,0.69);
+
+    
     
     
 }
+
+
 
 
 
