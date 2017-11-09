@@ -153,9 +153,7 @@ body {
 .icon {
     max-width: 100%;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-right: 5%;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -166,6 +164,7 @@ body {
     transition: 0.4s -webkit-transform linear;
     transition: 0.4s transform linear;
     transition: 0.4s transform linear, 0.4s -webkit-transform linear;
+    padding: 1%;
 }
 
 .icon:hover {
@@ -175,23 +174,25 @@ body {
 
 .icon-fb {
     background-color: #3b5998;
-    padding: 1%;
     -webkit-box-shadow: -3px 6px 50px 5px rgba(59, 89, 152, 0.69);
     box-shadow: -3px 6px 50px 5px rgba(59, 89, 152, 0.69);
 }
 
 .icon-yt {
     background-color: #cc181e;
-    padding: 1%;
     -webkit-box-shadow: -3px 6px 50px 5px rgba(204, 24, 30, 0.69);
     box-shadow: -3px 6px 50px 5px rgba(204, 24, 30, 0.69);
+   
 }
 
 .icon-git {
-    background-color: #333333;
-    padding: 1%;
+    background-color: #57a6cc;
     -webkit-box-shadow: -3px 6px 50px 5px rgba(51, 51, 51, 0.69);
     box-shadow: -3px 6px 50px 5px rgba(51, 51, 51, 0.69);
+}
+
+.icon-git:nth-last-of-type(1) {
+    background-color: #f88263;
 }
 
 
