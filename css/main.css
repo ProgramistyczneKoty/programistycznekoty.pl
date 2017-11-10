@@ -113,6 +113,7 @@ body {
     margin: 0 auto;
     width: 80%;
     padding: 0 20px;
+      
 }
 
 .content__image {
@@ -131,7 +132,17 @@ body {
 
 .content>p:first-of-type {
     text-align: center;
+    
 }
+
+.border-top {
+    border-top: 2px dashed gray;
+    border-bottom: 2px dashed gray;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
 
 .color__text {
     margin: 0 auto;
@@ -189,10 +200,6 @@ a.color__text {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: 0.4s -webkit-transform linear;
-    transition: 0.4s -webkit-transform linear;
-    transition: 0.4s transform linear;
-    transition: 0.4s transform linear, 0.4s -webkit-transform linear;
     padding: 1%;
 }
 
@@ -200,14 +207,34 @@ a.color__text {
     background-color: #3b5998;
 }
 
+.icon-fb:hover {
+    background-color: #344E85;
+}
+
 .icon-yt {
     background-color: #cc181e;
+}
+
+.icon-yt:hover {
+    background-color: #B3151A;
 }
 
 .icon-git {
     background-color: #57a6cc;
 }
 
+.icon-git:hover {
+    background-color: #4C91B3;
+}
+
 .icon-git:nth-last-of-type(1) {
     background-color: #f88263;
+}
+
+.icon-git:nth-last-of-type(1):hover {
+    background-color: #D97257;
+} 
+
+.footer {
+    text-align: center;
 }
