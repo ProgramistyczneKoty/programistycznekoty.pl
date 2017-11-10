@@ -88,9 +88,10 @@ body {
     text-align: justify;
     color: white;
     letter-spacing: 1.5px;
-    line-height: 120%;
-    margin: 20px auto;
-    padding: 250px 0;
+    line-height: 130%;
+    margin: 10px auto;
+    padding: 10px 0;
+    height: 700px;
 }
 
 .article--odd {
@@ -98,7 +99,8 @@ body {
 }
 
 .article--even {
-    background: #f19830;
+    background-image: url(../images/gory.jpg);
+    background-position: 50% 60%;
 }
 
 .content {
@@ -118,16 +120,14 @@ body {
 
 .content>h1 {
     font-size: 220%;
-    margin: 20px 0 10px 0;
+    margin: 10px 0 10px 0;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .content>p:first-of-type {
     text-align: center;
 }
-
-.content>h1>.color__text {}
 
 .color__text {
     margin: 0 auto;
@@ -136,8 +136,33 @@ body {
     text-align: center;
     display: block;
     color: #f19830;
-    font-size: 150%;
-    font-family: "Satisfy";
+    font-size: 180%;
+    font-family: 'Parisienne', cursive;
+}
+
+a.color__text {
+    color: white;
+}
+
+.button {
+    border: white solid 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: none;
+    color: white;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    cursor: pointer;
+    font-size: 48px;
+    text-transform: capitalize;
+    border-radius: 45px;
+    -webkit-box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+    text-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .icon_content {
@@ -168,8 +193,8 @@ body {
 }
 
 .icon:hover {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .icon-fb {
@@ -182,7 +207,6 @@ body {
     background-color: #cc181e;
     -webkit-box-shadow: -3px 6px 50px 5px rgba(204, 24, 30, 0.69);
     box-shadow: -3px 6px 50px 5px rgba(204, 24, 30, 0.69);
-   
 }
 
 .icon-git {
