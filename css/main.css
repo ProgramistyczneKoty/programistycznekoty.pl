@@ -4,11 +4,12 @@ body {
 
 .container {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
+    font-size: 22px;
+    color: #353535;
 }
 
 
-/*~>>>>>NAVIGATION-START<<<<< */
+/*~>>>>>NAVIGATION<<<<< */
 
 .nav {
     display: -webkit-box;
@@ -24,27 +25,31 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
+    background-color: rgba(90, 57, 18, 0.8);
+    position: -webkit-sticky;
+    position: sticky;
     width: 100%;
+    height: 10vh;
     text-shadow: 1px 0px 20px black;
-    top: 0;
     -webkit-box-shadow: 0px 10px 50px black;
     box-shadow: 0px 10px 50px black;
+    z-index: 50;
+    top: 0px;
+    font-size: 1.5em;
 }
 
 .nav__item {
     -ms-flex-item-align: center;
     align-self: center;
-    font-size: 1.5em;
     font-variant: small-caps;
-    color: #fff;
+    color: #FBE5CB;
 }
 
 .nav__item:hover {
-    color: red;
-    border-bottom: 2px solid red;
-    -webkit-transition: all 1s ease;
+    color: #f19830;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    ) -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 
@@ -65,82 +70,127 @@ body {
 .nav__item--logo {
     width: 90px;
     border-radius: 50%;
-    -webkit-box-shadow: 1px 1px 15px darkgray inset;
-    box-shadow: 1px 1px 15px darkgray inset;
+    -webkit-box-shadow: 1px 1px 15px #FBE5CB inset;
+    box-shadow: 1px 1px 15px #FBE5CB inset;
 }
 
 
 /*~>>>>>NAVIGATION-END<<<<< */
 
+
+/*~>>>>>HEADER<<<<< */
+
 .header__background {
-    background-image: url("../images/desert.jpg");
-    height: 1102px;
+    background-image: url("../images/mountains.jpg");
+    min-height: 90vh;
     -webkit-box-shadow: 0px -2px 5px black inset;
     box-shadow: 0px -2px 5px black inset;
     background-position: 50% 60%;
     background-size: cover;
 }
 
+.header__text {
+    position: absolute;
+    left: 28%;
+    bottom: 15%;
+    color: #f19830;
+    font-size: 3em;
+    letter-spacing: 10px;
+    padding-top: 10px;
+    line-height: 150%;
+    font-weight: 300;
+}
 
-/*~>>>>>SECTION-START<<<<< */
+.header__text>h3 {
+    font-size: 0.50em;
+    border-bottom: 3px solid #f19830;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    letter-spacing: 10px;
+    line-height: 90%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/*~>>>>>HEADER-END<<<<< */
+
+
+/*~>>>>>ARTICLES<<<<< */
 
 .article {
     text-align: justify;
-    color: white;
     letter-spacing: 1.5px;
     line-height: 130%;
     margin: 10px auto;
-    padding: 10px 0;
-    height: 700px;
+    padding: 150px 0;
 }
 
-.article--odd {
-    color: #353535;
-}
-
-.article--even {
+.article__exercises {
     background-image: url(../images/gory.jpg);
     background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
+
+.article__media {
+    padding: 20px 0;
+}
+
+.article__clips {
+    margin: 50px 0px;
+}
+
+.border--top {
+    border-top: 5px #f19830 solid;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+
+.border--bottom {
+    border-bottom: 5px #f19830 solid;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+
+/*~>>>>>ARTICLES-END<<<<< */
 
 .content {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 auto;
     width: 80%;
-    padding: 0 20px;
+    padding: 20px 0px;
+    text-align: center;
 }
 
 .content__image {
     float: left;
-    position: relative;
-    bottom: 10px;
     margin-right: 20px;
+    position: relative;
+    bottom: 90px;
+    left: 10px;
 }
 
 .content>h1 {
-    font-size: 220%;
-    margin: 10px 0 10px 0;
+    font-size: 2em;
     text-align: center;
-    padding-bottom: 10px;
-}
-
-.content>p:first-of-type {
-    text-align: center;
+    padding: 30px 0;
 }
 
 .color__text {
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 30px 0;
     text-align: center;
     display: block;
     color: #f19830;
-    font-size: 180%;
+    font-size: 2em;
     font-family: 'Parisienne', cursive;
 }
 
-a.color__text {
+.color__text--alt {
     color: white;
 }
 
@@ -151,9 +201,9 @@ a.color__text {
     color: white;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 20px 100px;
+    padding: 20px 75px;
     cursor: pointer;
-    font-size: 48px;
+    font-size: 1.5em;
     text-transform: capitalize;
     border-radius: 45px;
     -webkit-box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.4);
@@ -173,10 +223,11 @@ a.color__text {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin: 50px 0;
 }
 
 .icon {
-    max-width: 100%;
+    width: 25%;
     text-align: center;
     margin: 0 auto;
     display: -webkit-box;
@@ -185,39 +236,41 @@ a.color__text {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: 0.4s -webkit-transform linear;
-    transition: 0.4s -webkit-transform linear;
-    transition: 0.4s transform linear;
-    transition: 0.4s transform linear, 0.4s -webkit-transform linear;
     padding: 1%;
-}
-
-.icon:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
 }
 
 .icon-fb {
     background-color: #3b5998;
-    -webkit-box-shadow: -3px 6px 50px 5px rgba(59, 89, 152, 0.69);
-    box-shadow: -3px 6px 50px 5px rgba(59, 89, 152, 0.69);
+}
+
+.icon-fb:hover {
+    background-color: #344E85;
 }
 
 .icon-yt {
     background-color: #cc181e;
-    -webkit-box-shadow: -3px 6px 50px 5px rgba(204, 24, 30, 0.69);
-    box-shadow: -3px 6px 50px 5px rgba(204, 24, 30, 0.69);
+}
+
+.icon-yt:hover {
+    background-color: #B3151A;
 }
 
 .icon-git {
     background-color: #57a6cc;
-    -webkit-box-shadow: -3px 6px 50px 5px rgba(51, 51, 51, 0.69);
-    box-shadow: -3px 6px 50px 5px rgba(51, 51, 51, 0.69);
+}
+
+.icon-git:hover {
+    background-color: #4C91B3;
 }
 
 .icon-git:nth-last-of-type(1) {
     background-color: #f88263;
 }
 
+.icon-git:nth-last-of-type(1):hover {
+    background-color: #D97257;
+}
 
-/*~>>>>>SECTION-END<<<<< */
+.footer {
+    text-align: center;
+}

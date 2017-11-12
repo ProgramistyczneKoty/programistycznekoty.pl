@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Parisienne&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 </head>
 
 <body>
@@ -21,62 +21,78 @@
     <div class="container">
         <main>
 
-            <header class="header__background"></header>
+            <header class="header__background">
+
+                <hgroup class="header__text">
+
+                    <h1> Programistyczne Koty</h1>
+                    <h3>Nasza droga. Nasz cel. 120 dni.</h3>
+
+                </hgroup>
+
+            </header>
 
 
             <nav class="nav">
                 <a class="nav__item nav__item--left" href="#challange">wyzwanie</a>
+                <a class="nav__item nav__item--right" href="#history">youtube</a>
+                <img class="nav__item--logo" src="images/kot-logo.png" alt="Logo - rysunkowy kot w filiżance.">
                 <a class="nav__item nav__item--left" href="#exercises">ćwiczenia</a>
-                <a href="=#"><img class="nav__item--logo" src="images/kot-logo.png" alt="Logo - rysunkowy kot w filiżance."></a>
-                <a class="nav__item nav__item--right" href="#media">o nas</a>
-                <a class="nav__item nav__item--right" href="#history">historia</a>
+                <a class="nav__item nav__item--right" href="#media">media</a>
+
             </nav>
 
-            <article id="challange" class="article article--odd">
-                <div class="content">
+            <article id="challange" class="article">
+                <div class="content border--top border--bottom">
 
                     <h1>Czas na <span class="color__text">wyzwanie!</span></h1>
 
                     <p><img class="content__image" src="images/hello.png" alt="Chmura tagów">W październiku postawiliśmy przed sobą cel - mając do dyspozycji 120 dni, od zera zostać:
-                        <p><span class="color__text"> Front-End Developerami.</span></p>
 
+                        <h1 class="color__text">Front-End Developerami</h1>
 
-                        <p>Będą to cztery miesiące ciężkiej pracy, wyrzeczeń i pogodzenia nauki i pracy zadowodą. Strona ta jest realnym zapisem naszych starań. Nie dajemy prowadzić się za rękę kursom i tutorialom, przepisując z nich krok po kroku kod, by stworzyć efektowną stronę. To miejsce tokuźnia naszych starań, gdzie możemy czerpać wiedzę i doświadczenie z naszych starań i pomyłek. Hmm... a jest z czego czerpać! </p>
+                        <p>Będą to cztery miesiące ciężkiej pracy, wyrzeczeń i pogodzenia nauki i pracy zadowodą. Strona ta jest realnym zapisem naszych starań, kuźnią gdzie możemy czerpać mądrość i praktykę z naszych wysiłków i pomyłek. Hmm... a jest z czego czerpać! </p>
+                </div>
+            </article>
+            <article id="history" class="article__clips">
+                <div class="icon_content">
+                    <iframe width="25%" height="315" src="https://www.youtube.com/embed/AY-25AqzLTU" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="25%" height="315" src="https://www.youtube.com/embed/_O_MAS648Mg" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="25%" height="315" src="https://www.youtube.com/embed/kl74EHA1QrU" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="25%" height="315" src="https://www.youtube.com/embed/0gz6aYh2u4w" frameborder="0" allowfullscreen></iframe>
+
                 </div>
             </article>
 
-            <article id="exercises" class="article article--even">
-                <div class="content">
-                    <img class="content" src="images/gora.png">
 
-                    <p>C/p>
-                        <span class="color__text" style="color:white;">wiedzę i umiejętności</span>
-                        <div style="text-align: center"> <a href="cwiczenia/cwiczenia.html"><button class="button">ZOBACZ NASZE POSTĘPY</button></a></div>
+            <article id="exercises" class="article article__exercises">
+                <div class="content">
+                    <p> Każdego dnia staramy się rozwijać, być lepsi. Codziennie balansujemy między pracą, nauką a wypoczynkiem, po to by zdobywać jedynych, prawdziwych przyjaciół człowieka: </p>
+                    <h1 class="color__text color__text--alt"> Wiedzę i Doświadczenie </h1>
+                    <p> Jednak o człowieku świadczą czyny. Tak więc prezentujemy Wam wykonane ćwiczenia orazarchiwalne wersje strony. Dzięki temu będziecie mogli prześledzić nasz postęp, zainspirować się lub... pośmiać. </p>
+
+
+                    <span class="color__text" style="color:white;"></span>
+                    <div style="text-align: center"> <a href="cwiczenia/cwiczenia.html"><button class="button">ZOBACZ NASZE POSTĘPY</button></a></div>
 
                 </div>
             </article>
 
-            <article id="media" class="article article--odd">
 
-                <div class="content">
-                    <h1><span class="color__text">Media</span></h1>
-                    <div class="icon_content">
-                        <div class="icon icon-fb"><a href="https://www.facebook.com/programistyczne.koty/"><i class="icon-facebook"></i></a></div>
-                        <div class="icon icon-yt"><a icon icon-yt href="https://www.youtube.com/channel/UCsabEJ08Zl13XqYMsvHWkNg"><i class="icon-youtube"></i></a></div>
-                        <div class="icon icon-git" title="Dariusz Git"><a href="https://github.com/DariuszWolski"><i class="icon-github-circled"></i></a></div>
-                        <div class="icon icon-git" title="Maria Git"><a href="https://github.com/NadolskaMaria"><i class="icon-github-circled"></i></a></div>
-                    </div>
+
+            <article id="media" class="article__media">
+                <div class="icon_content">
+                    <div class="icon icon-fb"><a href="https://www.facebook.com/programistyczne.koty/"><i class="icon-facebook"></i></a></div>
+                    <div class="icon icon-yt"><a icon icon-yt href="https://www.youtube.com/channel/UCsabEJ08Zl13XqYMsvHWkNg"><i class="icon-youtube"></i></a></div>
+                    <div class="icon icon-git" title="Dariusz Git"><a href="https://github.com/DariuszWolski"><i class="icon-github-circled"></i></a></div>
+                    <div class="icon icon-git" title="Maria Git"><a href="https://github.com/NadolskaMaria"><i class="icon-github-circled"></i></a></div>
                 </div>
-            </article>
-            <article id="history" class="article article--even">
-                <div class="content">
-                    <p>Mówi się, że o człowieku świadczą czyny. Tak więc prezentujemy Wam archiwalne wersje strony. Dzięki temu będziecie mogli prześledzić nasz postęp, zainspirować się lub.. pośmiać. </p>
 
-
-                </div>
             </article>
         </main>
+
         <footer class="content"> 2017 Copyright &copy;Programistycznekoty.pl (12.11.2017 - Tydzień 4) </footer>
+
     </div>
 
 
