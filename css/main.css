@@ -176,10 +176,8 @@ body {
 }
 
 .content__image {
-    float: left;
-    margin-right: 20px;
-
- 
+    display: block;
+    margin: 0 auto;
 }
 
 .content>h1 {
@@ -275,6 +273,3 @@ body {
 .footer {
     text-align: center;
 }
-
-
-
